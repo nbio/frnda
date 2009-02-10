@@ -1,0 +1,60 @@
+Metadata-Version: 1.1
+Name: pisa
+Version: 3.0.20
+Summary: PDF generator using HTML and CSS
+Home-page: http://www.htmltopdf.org/
+Author: Dirk Holtwick
+Author-email: holtwick@web.de
+License: Qt Public License (QPL)
+Download-URL: http://www.htmltopdf.org/download.html
+Description: pisa is a html2pdf converter using the ReportLab Toolkit,
+        the HTML5lib and pyPdf. It supports HTML 5 and CSS 2.1 (and some of CSS 3).
+        It is completely written in pure Python so it is platform independent.
+        The main benefit of this tool that a user with Web skills like HTML and CSS
+        is able to generate PDF templates very quickly without learning new
+        technologies. Easy integration into Python frameworks like CherryPy,
+        KID Templating, TurboGears, Django, Zope, Plone, etc. (see 'demo' folder for
+        examples)
+Keywords: HTML,CSS,PDF
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Customer Service
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Financial and Insurance Industry
+Classifier: Intended Audience :: Healthcare Industry
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: Legal Industry
+Classifier: Intended Audience :: Manufacturing
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: System Administrators
+Classifier: Intended Audience :: Telecommunications Industry
+Classifier: License :: Free for non-commercial use
+Classifier: License :: OSI Approved :: Qt Public License (QPL)
+Classifier: Natural Language :: English
+Classifier: Natural Language :: German
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft
+Classifier: Operating System :: Microsoft :: MS-DOS
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: Other OS
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: Unix
+Classifier: Topic :: Documentation
+Classifier: Topic :: Internet
+Classifier: Topic :: Multimedia
+Classifier: Topic :: Office/Business
+Classifier: Topic :: Office/Business :: Financial
+Classifier: Topic :: Office/Business :: Financial :: Accounting
+Classifier: Topic :: Printing
+Classifier: Topic :: Text Processing
+Classifier: Topic :: Text Processing :: Fonts
+Classifier: Topic :: Text Processing :: Markup
+Classifier: Topic :: Text Processing :: Markup :: HTML
+Classifier: Topic :: Text Processing :: Markup :: XML
+Classifier: Topic :: Utilities
+Requires: html5lib
+Requires: reportlab

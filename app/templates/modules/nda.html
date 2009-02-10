@@ -1,0 +1,78 @@
+<div id="nda">
+    <p>
+    This mutual nondisclosure agreement (the <em>Agreement</em>), entered into as of {{ now|date:"j F, Y" }}, is by and between
+{% if is_form %}
+        <input type="text" class="text mirror" id="name1" name="name1" size="18" placeholder="person A" />,
+{% else %}
+    {{ name1 }},
+{% endif %}
+    located at
+{% if is_form %}
+        <input type="text" class="text" id="addr1" name="addr1" size="30" placeholder="person A’s address" />,
+{% else %}
+    {{ address1 }},
+{% endif %}
+    and
+{% if is_form %}
+        <input type="text" class="text mirror" id="name2" name="name2" size="18" placeholder="person B" />,
+{% else %}
+    {{ name2 }},
+{% endif %}
+    located at
+{% if is_form %}
+        <input type="text" class="text" id="address2" name="address2" size="30" placeholder="person B’s address" />.
+{% else %}
+    {{ address2 }}.
+{% endif %}
+    </p>
+
+    <h3>Recitals</h3>
+{% if is_form %}
+    <div class="tip" id="tip-1">
+        <p>Explanation text for the first paragraph.</p>
+        <p>Drop shadow invisible to way more than over 50% of the web.</p>
+    </div>
+{% endif %}
+    <p class="hv hv-1">
+{% if is_form %}
+        <span class="bg"></span>
+{% endif %}
+        Whereas, each party will be disclosing (in such situation, the <em>Disclosing Party</em>) to the other party (in such situation, the <em>Receiving Party</em>) certain information which is confidential and proprietary to the Disclosing Party as is necessary or appropriate for the Receiving Party to perform certain agreed upon services for the Disclosing Party or to evaluate entering into a particular transaction, business dealing or agreement with the Disclosing Party (as applicable, the <em>Permitted Purposes</em>); and
+    </p>
+
+    <p>Whereas, in consideration of the receipt of such information, and other good and valuable consideration, the receipt and sufficiency of which are hereby acknowledged by each party, each party agrees to maintain the confidentiality of such information.</p>
+
+    <p>Now therefore:</p>
+
+    <h3>Agreement</h3>
+
+    <ol>
+        <li><h4>Disclosure of Confidential Information</h4> Subject to the conditions contained herein, in connection with the Permitted Purposes, each party will be furnished with certain confidential and proprietary information of the other, which such other party deems necessary and/or appropriate ("Confidential Information", as further defined below).
+
+        <li><h4>Definition of Confidential Information</h4> Confidential Information means all information concerning the Disclosing Party or its business, products, or services that is not generally known to the public, including, without limitation, technical, financial or business information or data; information regarding digital content and related intellectual property, technology, production, financing and distribution matters, software products and related documentation and manuals (including software source and object code); data and algorithms used by or for such software; lists of actual or potential customers, suppliers, acquisition candidates or other affiliated companies; research and development plans; proprietary methods and processes; and product and business plans and strategies.  Confidential Information also includes all information that the Disclosing Party is required by third parties (including the Disclosing Party's customers) to keep confidential.</li>
+
+        <li><h4>Scope of Use</h4>  The Receiving Party shall not use any portion of the Confidential Information in any manner or for any purpose other than as necessary and/or appropriate in connection  with the Permitted Purposes.  </li>
+
+        <li><h4>Covenant of Nondisclosure</h4>  At all times that the Receiving Party is in possession of Confidential Information, the Receiving Party shall (a) safeguard the Confidential Information from unauthorized use and disclosure; (b) disclose the Confidential Information to no one other than employees of or advisors to the Receiving Party with a need to know in order to perform the Permitted Purposes; and (c) advise all such employees and advisors of their obligations with respect to the Confidential Information and be responsible for their breach of this Agreement.  Notwithstanding the foregoing, the Receiving Party shall have no obligation to maintain the confidentiality of Confidential Information that is or becomes publicly available without a breach of this Agreement.</li>
+
+        <li><h4>Ownership of Confidential Information</h4> All Confidential Information shall remain the property of the Disclosing Party.  Upon request by the Disclosing Party or upon completion of the activities constituting the Permitted Purposes, the Receiving Party must promptly deliver to the Disclosing Party all materials (and all copies of such materials) that contain any Confidential Information (regardless of who prepared such materials) and all work-in-progress (regardless of whether such work-in-progress contains any Confidential Information), if any, that the Receiving Party is preparing for the Disclosing Party.  Upon the Disclosing Party's request, an officer of the Receiving Party will certify as to its compliance with this paragraph.</li>
+
+        <li><h4>No Further Rights</h4> Nothing in this Agreement shall be construed as granting to or conferring upon the Receiving Party any rights by license or otherwise in the Confidential Information.  No representation is made by the Disclosing Party that the Confidential Information provided to the Receiving Party is complete or accurate in all respects.</li>
+
+        <li><h4>Violation by the Receiving Party</h4> The Receiving Party shall notify the Disclosing Party immediately upon discovery of any unauthorized disclosure or use of Confidential Information.  The Receiving Party will cooperate with the Disclosing Party in every reasonable way to help the Disclosing Party regain possession of its Confidential Information and/or to prevent further unauthorized use or disclosure.  In the event of the Receiving Party's threatened or actual breach of the terms of this Agreement, the Disclosing Party shall have no adequate remedy at law and shall be entitled to (a) all equitable remedies, including immediate injunctive and other equitable relief (without bond and without the necessity of showing actual monetary damages) enjoining the Receiving Party and every other party from breaching the terms of this Agreement, and (b) reasonable attorneys fees incurred in enforcing its rights hereunder.  </li>
+
+        <li><h4>Severability.</h4> If any term, condition or provision in this Agreement is found by a court of competent jurisdiction to be invalid, unlawful or unenforceable to any extent, then it is the intent of the parties that such court apply a rule of reasonableness and modify the provision in question so it will remain in effect to the greatest extent permitted by law. In the event a court finds such procedure to be inappropriate, then such invalid term, condition or provision will be severed from the remaining terms, conditions and provisions, which will continue to be valid and enforceable to the fullest extent permitted by law.</li>
+
+        <li><h4>Miscellaneous</h4> The terms and provisions of this Agreement will inure to the benefit of each party's successors and assigns.  Either party may not assign or otherwise transfer the terms and provisions of this Agreement, any such attempt shall be null and void.  No failure or delay by either party in exercising any right, power or privilege hereunder shall operate as a waiver hereof; all waivers being required to be in a writing signed by the waiving party.  This Agreement contains the full and complete understanding of the parties with respect to the subject matter of this Agreement and supersedes all prior representations and understandings concerning the same subject matter whether they be oral or written.  This Agreement will be governed by and construed according to the laws of the State of California, without regard to conflicts of law principles.  The parties hereby consent to the exclusive jurisdiction of the Federal or state courts in California in any action or claim arising out of, under or in connection with this Agreement, or the relationship between the parties hereto.</li>
+
+        <li><h4>Waiver of Jury</h4> Each party knowingly and voluntarily waives any and all right to a trial by jury in any action or proceeding arising out of, under or in connection with this Agreement, or the relationship between the parties hereto.</li>
+    </ol>
+</div>
+<div class="signature">
+    <p>Signed:</p>
+    <p>Name: <span class="mirror-name1">{{ name1 }}</span></p>
+</div>
+<div class="signature">
+    <p>Signed:</p>
+    <p>Name: <span class="mirror-name2">{{ name2 }}</span></p>
+</div>

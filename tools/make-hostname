@@ -1,0 +1,8 @@
+#!/usr/bin/perl
+use strict;
+my $FN = "/usr/lib/python2.5/hostname.py";
+my $hostname = $ARGV[0] || $ENV{HOSTNAME} || die "\$HOSTNAME environment variable not set. Did you export it?";
+print "Setting $FN to $hostname\n";
+open FILE, ">$FN" || die "Unable to open $FN ($!). Perhaps run this command as root: \"sudo $0 <HOSTNAME>\"";
+print FILE "HOSTNAME = '$hostname'\n";
+close FILE;

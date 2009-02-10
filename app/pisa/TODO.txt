@@ -1,0 +1,47 @@
+- Barcode!
+- Logger!
+- TOC!
+- Namespace xmlns:pdf="http://htmltopdf.org/pdf"
+- pyxer.net nbsp sehen komisch aus
+- extend barcode
+
+TODO
+====
+
+- Margins are not handled consistently.
+  Margin collapsing has to implemented.
+- Write a complete test for CSS selectors
+- Rework command line handling
+- Create Windows and MacOSX stand alone command line versions
+- CSS parser should handle dirty code, maybe HTML5 sanitizer?
+- Cleanup "test" directory
+- Border style is not supported
+- Implement links and anchors
+
+BUGS
+====
+
+- @xyz_ <- one blank is always needed!
+- background: is not handled correctly
+- @import is only valid at start of documents, CSS fails here
+- &nbsp; is not supported
+- Font "smaller" etc is not supported
+- Image alignment is not supported
+- <pdf:pagenumber> does only work in static frames
+- Do we really strip all Unicode white spaces?
+- Test charset handling in <link>
+- Fix attributes in <table> like "repeat", "keep..." and so on
+- Relative "height" and "width" for images?
+- Is "zoom" a regular style?
+
+FEATURES
+========
+
+- Function for merging PDF
+- Support pseudo selectors like :first-line
+- page-break styles could be extended
+- background style should support images
+- Drawings
+- Charts
+- Image align
+- @page :left

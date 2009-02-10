@@ -1,0 +1,17 @@
+application: frnda
+version: 1
+runtime: python
+api_version: 1
+
+handlers:
+- url: /_s
+  static_dir: static
+
+- url: /favicon.ico
+  static_files: static/i/favicon.ico
+  upload: static/i/favicon.ico
+  mime_type: image/vnd.microsoft.icon
+
+- url: /.*
+  script: main.py
+  login: admin

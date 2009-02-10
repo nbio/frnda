@@ -1,0 +1,7 @@
+#!/usr/bin/perl
+use strict;
+my $svn = "/usr/bin/svn";
+my $base = "https://svn2.hosted-projects.com/pasv/frnda";
+my $tag = $ARGV[ 0 ] || die "Usage: $0 <tag>\n";
+system( $svn, "cp", "$base/trunk", "$base/tags/$tag", "-m", "Created tag $tag from trunk" );
+print "Created tag $tag\n";

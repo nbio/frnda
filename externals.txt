@@ -1,0 +1,4 @@
+app/nbio/django https://nbio.googlecode.com/svn/nbio_django/trunk/nbio/django
+app/html5lib http://html5lib.googlecode.com/svn/trunk/python/src/html5lib
+app/reportlab http://www.reportlab.co.uk/svn/public/reportlab/tags/RLRELEASES/ReportLab_2_1/reportlab
+app/appengine_django http://google-app-engine-django.googlecode.com/svn/trunk/appengine_django

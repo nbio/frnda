@@ -1,0 +1,8 @@
+{% extends "default.html" %}
+
+{% block content %}
+    <form action="/pdf/" method="POST" target="new">
+    {% include "modules/nda.html" %}
+        <p id="nda-submit"><input type="submit" class="submit" value="Print" /></p>
+    </form>
+{% endblock %}

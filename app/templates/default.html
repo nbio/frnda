@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block body %}
+<div id="container">
+    {% include "modules/header-ad.html" %}
+    {% include "modules/header.html" %}
+    <div id="content">
+    {% block content %}{% endblock %}
+    </div>
+    {% include "modules/footer.html" %}
+</div>
+{% endblock %}
